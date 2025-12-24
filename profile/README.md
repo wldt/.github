@@ -56,5 +56,5 @@ flowchart TB
   - (Java) MQTT Digital Adapter: [Link](https://github.com/wldt/mqtt-digital-adapter-java)
   - (Java) HTTP Digital Adapter: [Link](https://github.com/wldt/http-digital-adapter-java)
   - (Java) CoAP Digital Adapter: [Link](https://github.com/wldt/coap-digital-adapter-java)
-  - [Kotlin] Web of Things Digital Adapter: [Link](https://github.com/wldt/wot-digital-adapter-kotlin) 
+  - (Kotlin) Web of Things Digital Adapter: [Link](https://github.com/wldt/wot-digital-adapter-kotlin) 
 - **💾 Storage**: Storage modules will be releases soon :) 
