@@ -2,6 +2,8 @@
 
 The White Label Digital Twin (WLDT) 🏗️ library enables the creation of **Digital Twins (DTs)** as comprehensive software representations of real-world **Physical Assets (PAs)** or **Physical Twins (PTs)**. Designed specifically for **Internet of Things (IoT)** and **Industrial IoT (IIoT)** use cases, it powers **active DTs** that stay continuously connected to their physical counterparts. The library integrates properties, conditions, relationships, and behaviors through realistic models and data, ensuring a synchronized digital replica throughout the asset's full lifecycle.
 
+Currently, the library is implemented in Java ☕ with some adapter modules in Kotlin, while Python 🐍 and C++ ports are under evaluation in the roadmap.
+
 The official Website with the detailed documentation of the library and the entire project is available: [https://wldt.github.io/](https://wldt.github.io/)
 
 ## 🤖 Digital Twin Definition
@@ -42,3 +44,17 @@ flowchart TB
     style D3 fill:#FFFFFF
     style D4 fill:#FFFFFF
 ```
+## 🔌 Main Modules & Plugins
+
+- **⚙️ WLDT Core:**
+  - (Java) WLDT Core: [Link](https://github.com/wldt/wldt-core-java)
+- **🔌 Physical Adapters:**
+  - (Java) MQTT Physical Adater: [Link](https://github.com/wldt/mqtt-physical-adapter-java)
+  - (Java) CoAP Physical Adapter: [Link](https://github.com/wldt/coap-physical-adapter-java)
+  - [Kotlin] Web of Things Physical Adapter: [Link](https://github.com/wldt/wot-physical-adapter-kotlin)
+- **🔌 Physical Adapters:**
+  - (Java) MQTT Digital Adapter: [Link](https://github.com/wldt/mqtt-digital-adapter-java)
+  - (Java) HTTP Digital Adapter: [Link](https://github.com/wldt/http-digital-adapter-java)
+  - (Java) CoAP Digital Adapter: [Link](https://github.com/wldt/coap-digital-adapter-java)
+  - [Kotlin] Web of Things Digital Adapter: [Link](https://github.com/wldt/wot-digital-adapter-kotlin) 
+- **💾 Storage**: Storage modules will be releases soon :) 
